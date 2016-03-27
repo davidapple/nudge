@@ -27,30 +27,40 @@
     }
 }
 
-.nudge-margin(~'', @nudge-space, ~'');
+.nudge-margin(@nudge-zero-prefix, @nudge-space-zero, ~'');
 .nudge-margin(@nudge-sm-prefix, @nudge-space-sm, ~'');
+.nudge-margin(~'', @nudge-space, ~'');
 .nudge-margin(@nudge-lg-prefix, @nudge-space-lg, ~'');
+.nudge-margin(@nudge-hg-prefix, @nudge-space-hg, ~'');
 
 @media(max-width: @screen-xs-max) {
-    .nudge-margin(~'', @nudge-space, @nudge-responsive-xs-prefix);
+    .nudge-margin(@nudge-zero-prefix, @nudge-space-zero, @nudge-responsive-xs-prefix);
     .nudge-margin(@nudge-sm-prefix, @nudge-space-sm, @nudge-responsive-xs-prefix);
+    .nudge-margin(~'', @nudge-space, @nudge-responsive-xs-prefix);
     .nudge-margin(@nudge-lg-prefix, @nudge-space-lg, @nudge-responsive-xs-prefix);
+    .nudge-margin(@nudge-hg-prefix, @nudge-space-hg, @nudge-responsive-xs-prefix);
 }
 
 @media(min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
-    .nudge-margin(~'', @nudge-space, @nudge-responsive-sm-prefix);
+    .nudge-margin(@nudge-zero-prefix, @nudge-space-zero, @nudge-responsive-sm-prefix);
     .nudge-margin(@nudge-sm-prefix, @nudge-space-sm, @nudge-responsive-sm-prefix);
+    .nudge-margin(~'', @nudge-space, @nudge-responsive-sm-prefix);
     .nudge-margin(@nudge-lg-prefix, @nudge-space-lg, @nudge-responsive-sm-prefix);
+    .nudge-margin(@nudge-hg-prefix, @nudge-space-hg, @nudge-responsive-sm-prefix);
 }
 
 @media(min-width: @screen-md-min) and (max-width: @screen-md-max) {
-    .nudge-margin(~'', @nudge-space, @nudge-responsive-md-prefix);
+    .nudge-margin(@nudge-zero-prefix, @nudge-space-zero, @nudge-responsive-md-prefix);
     .nudge-margin(@nudge-sm-prefix, @nudge-space-sm, @nudge-responsive-md-prefix);
+    .nudge-margin(~'', @nudge-space, @nudge-responsive-md-prefix);
     .nudge-margin(@nudge-lg-prefix, @nudge-space-lg, @nudge-responsive-md-prefix);
+    .nudge-margin(@nudge-hg-prefix, @nudge-space-hg, @nudge-responsive-md-prefix);
 }
 
 @media(min-width: @screen-lg-min) {
-    .nudge-margin(~'', @nudge-space, @nudge-responsive-lg-prefix);
+    .nudge-margin(@nudge-zero-prefix, @nudge-space-zero, @nudge-responsive-lg-prefix);
     .nudge-margin(@nudge-sm-prefix, @nudge-space-sm, @nudge-responsive-lg-prefix);
+    .nudge-margin(~'', @nudge-space, @nudge-responsive-lg-prefix);
     .nudge-margin(@nudge-lg-prefix, @nudge-space-lg, @nudge-responsive-lg-prefix);
+    .nudge-margin(@nudge-hg-prefix, @nudge-space-hg, @nudge-responsive-lg-prefix);
 }
