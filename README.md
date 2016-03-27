@@ -14,14 +14,14 @@ bower install nudge --save
 
 Nudge margin and padding CSS classes are composed of a minimum of two variables (and a maximum of five).
 
-| nudge prefix* | css attribute* | position       | size | responsive |
-|---------------|----------------|----------------|------|------------|
-| nudge-        | m (margin)     | x (horizontal) | -sm  | --xs       |
-|               | p (padding)    | y (vertical)   | -lg  | --sm       |
-|               |                | t (top)        |      | --md       |
-|               |                | b (bottom)     |      | --lg       |
-|               |                | l (left)       |      |            |
-|               |                | r (right)      |      |            |
+| nudge prefix* | css attribute* | position       |  size  | responsive |
+|---------------|----------------|----------------|--------|------------|
+| nudge-        | m (margin)     | x (horizontal) | -zero  | --xs       |
+|               | p (padding)    | y (vertical)   | -sm    | --sm       |
+|               |                | t (top)        | -lg    | --md       |
+|               |                | b (bottom)     | -hg    | --lg       |
+|               |                | l (left)       |        |            |
+|               |                | r (right)      |        |            |
 
 Nudge font size CSS classes are composed in a similar way.
 
