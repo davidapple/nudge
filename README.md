@@ -2,12 +2,12 @@
 
 ## Responsive Margin, Padding & Font Size Classes
 
-Extensive collection of CSS classes. This works quite nicely alongside [Twitter Bootstrap](http://getbootstrap.com/) or [Foundation](http://foundation.zurb.com/) but you can use it in any environment.
+Extensive collection of CSS (less & sass) classes. This works quite nicely alongside [Twitter Bootstrap](http://getbootstrap.com/) or [Foundation](http://foundation.zurb.com/) but you can use it in any environment.
 
 ## Installation
 
 ```
-bower install nudge --save-dev
+bower install nudge --save
 ```
 
 ## CSS Class Construction Table
@@ -49,7 +49,7 @@ These variables can be edited to be as short or verbose as you wish.
 <p class="nudge-mb">White space under here.<p>
 
 <p class="nudge-mt-sm">A bit of white space above here.<p>
-<p class="nudge-mr-sm">A tiny bit of white space to the right of here.<p>
+<p class="nudge-mr-sm">A bit of white space to the right of here.<p>
 ```
 
 And the responsive classes...
@@ -71,7 +71,7 @@ Replace the word _margin_ for _padding_ in the css classes and it will work exac
 
 ## Recompile the CSS using Grunt
 
-The less files will be recompiled to CSS using the default grunt command.
+The less files will be converted to sass and recompiled to CSS using the default grunt command.
 
 ```
 grunt
