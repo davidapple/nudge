@@ -7,7 +7,7 @@ Extensive collection of CSS classes. This works quite nicely alongside [Twitter 
 ## Installation
 
 ```
-bower install margin-and-padding --save-dev
+bower install nudge --save-dev
 ```
 
 ## CSS Class Construction Table
