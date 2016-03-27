@@ -1,5 +1,7 @@
 # Nudge
 
+More white space control.
+
 ## Responsive Margin, Padding & Font Size Classes
 
 Extensive collection of CSS (less & sass) classes. This works quite nicely alongside [Twitter Bootstrap](http://getbootstrap.com/) or [Foundation](http://foundation.zurb.com/) but you can use it in any environment.
