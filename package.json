@@ -1,0 +1,31 @@
+{
+  "name": "nudge",
+  "version": "0.0.1",
+  "description": "Extensive collection of CSS classes.",
+  "author": "David Apple <davidapple@protonmail.com>",
+  "contributors" : [{
+    "name": "David Apple",
+    "email": "davidapple@protonmail.com"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davidapple/nudge"
+  },
+  "keywords": [
+    "margin",
+    "padding",
+    "css",
+    "styles",
+    "boilerplate"
+  ],
+  "main": "Gruntfile.js",
+  "license": "MIT",
+  "preferGlobal": false,
+  "private": false,
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-cssmin": "^0.12.2",
+    "grunt-contrib-less": "^1.0.0",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}

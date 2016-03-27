@@ -1,0 +1,28 @@
+{
+  "name": "nudge",
+  "version": "0.0.1",
+  "authors": [
+    "David Apple", "David Apple <davidapple@protonmail.com>"
+  ],
+  "description": "Extensive collection of CSS classes.",
+  "main": "dist/css/style.min.css",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davidapple/nudge"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "keywords": [
+    "margin",
+    "padding",
+    "css",
+    "styles",
+    "boilerplate"
+  ]
+}

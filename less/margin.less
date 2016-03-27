@@ -1,0 +1,56 @@
+.nudge-margin(@prefix, @size, @responsive) {
+    .@{nudge-prefix}@{nudge-margin-prefix}@{prefix}@{responsive} {
+        margin-top: @size;
+        margin-bottom: @size;
+        margin-left: @size;
+        margin-right: @size;
+    }
+    .@{nudge-prefix}@{nudge-margin-prefix}@{nudge-x-prefix}@{prefix}@{responsive} {
+        margin-left: @size;
+        margin-right: @size;
+    }
+    .@{nudge-prefix}@{nudge-margin-prefix}@{nudge-y-prefix}@{prefix}@{responsive} {
+        margin-top: @size;
+        margin-bottom: @size;
+    }
+    .@{nudge-prefix}@{nudge-margin-prefix}@{nudge-top-prefix}@{prefix}@{responsive} {
+        margin-top: @size;
+    }
+    .@{nudge-prefix}@{nudge-margin-prefix}@{nudge-bottom-prefix}@{prefix}@{responsive} {
+        margin-bottom: @size;
+    }
+    .@{nudge-prefix}@{nudge-margin-prefix}@{nudge-left-prefix}@{prefix}@{responsive} {
+        margin-left: @size;
+    }
+    .@{nudge-prefix}@{nudge-margin-prefix}@{nudge-right-prefix}@{prefix}@{responsive} {
+        margin-right: @size;
+    }
+}
+
+.nudge-margin(~'', @nudge-space, ~'');
+.nudge-margin(@nudge-sm-prefix, @nudge-space-sm, ~'');
+.nudge-margin(@nudge-lg-prefix, @nudge-space-lg, ~'');
+
+@media(max-width: @screen-xs-max) {
+    .nudge-margin(~'', @nudge-space, @nudge-responsive-xs-prefix);
+    .nudge-margin(@nudge-sm-prefix, @nudge-space-sm, @nudge-responsive-xs-prefix);
+    .nudge-margin(@nudge-lg-prefix, @nudge-space-lg, @nudge-responsive-xs-prefix);
+}
+
+@media(min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+    .nudge-margin(~'', @nudge-space, @nudge-responsive-sm-prefix);
+    .nudge-margin(@nudge-sm-prefix, @nudge-space-sm, @nudge-responsive-sm-prefix);
+    .nudge-margin(@nudge-lg-prefix, @nudge-space-lg, @nudge-responsive-sm-prefix);
+}
+
+@media(min-width: @screen-md-min) and (max-width: @screen-md-max) {
+    .nudge-margin(~'', @nudge-space, @nudge-responsive-md-prefix);
+    .nudge-margin(@nudge-sm-prefix, @nudge-space-sm, @nudge-responsive-md-prefix);
+    .nudge-margin(@nudge-lg-prefix, @nudge-space-lg, @nudge-responsive-md-prefix);
+}
+
+@media(min-width: @screen-lg-min) {
+    .nudge-margin(~'', @nudge-space, @nudge-responsive-lg-prefix);
+    .nudge-margin(@nudge-sm-prefix, @nudge-space-sm, @nudge-responsive-lg-prefix);
+    .nudge-margin(@nudge-lg-prefix, @nudge-space-lg, @nudge-responsive-lg-prefix);
+}
