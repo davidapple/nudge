@@ -54,7 +54,8 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         options: {
-          style: 'expanded'
+          style: 'expanded',
+          noCache: true
         },
         files: {
           'dist/css/nudge.css': 'sass/nudge.scss'
