@@ -1,0 +1,21 @@
+@mixin nudge-heading($prefix, $size, $unit, $base, $heading){
+    .#{$prefix}heading-#{$heading} {
+        font-size: $size + ($unit * $base);
+        @media(min-width: $screen-md-min) and (max-width: $screen-md-max) {
+            font-size: $size + ($unit * ($base - 2));
+        }
+        @media(min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+            font-size: $size + ($unit * ($base - 4));
+        }
+        @media(max-width: $screen-xs-max) {
+            font-size: $size + ($unit * ($base - 6));
+        }
+    }
+}
+
+@include nudge-heading($nudge-prefix, $nudge-font-size, $nudge-font-size-increment, 24, 1);
+@include nudge-heading($nudge-prefix, $nudge-font-size, $nudge-font-size-increment, 20, 2);
+@include nudge-heading($nudge-prefix, $nudge-font-size, $nudge-font-size-increment, 16, 3);
+@include nudge-heading($nudge-prefix, $nudge-font-size, $nudge-font-size-increment, 12, 4);
+@include nudge-heading($nudge-prefix, $nudge-font-size, $nudge-font-size-increment, 8, 5);
+@include nudge-heading($nudge-prefix, $nudge-font-size, $nudge-font-size-increment, 4, 6);
