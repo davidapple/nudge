@@ -10,6 +10,23 @@ Extensive collection of CSS classes. This works quite nicely alongside [Twitter 
 bower install margin-and-padding --save-dev
 ```
 
+## CSS Class Construction Table
+
+Nudge CSS classes are composed of a minimum of two variables (and a maximum of five).
+
+| nudge prefix* | css attribute* | position       | size | responsive |
+|---------------|----------------|----------------|------|------------|
+| nudge-        | m (margin)     | x (horizontal) | -sm  | --xs       |
+|               | p (padding)    | y (vertical)   | -lg  | --sm       |
+|               |                | t (top)        |      | --md       |
+|               |                | b (bottom)     |      | --lg       |
+|               |                | l (left)       |      |            |
+|               |                | r (right)      |      |            |
+
+_\* Mandatory_
+
+These variables can be edited to be as short or verbose as you wish.
+
 ## Example
 
 ```
@@ -30,7 +47,15 @@ And the responsive classes...
 <p class="nudge-mt--lg">White space above here (on desktop only).</p>
 ```
 
-Replace the word 'margin' for 'padding' in the css classes and it will work exactly as you imagine.
+Replace the word _margin_ for _padding_ in the css classes and it will work exactly as you imagine.
+
+## Recompile the CSS using Grunt
+
+The less files will be recompiled to CSS using the default grunt command.
+
+```
+grunt
+```
 
 ## Contributors
 
