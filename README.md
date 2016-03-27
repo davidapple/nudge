@@ -1,6 +1,6 @@
 # Nudge
 
-## Responsive Margin & Padding Classes
+## Responsive Margin, Padding & Font Size Classes
 
 Extensive collection of CSS classes. This works quite nicely alongside [Twitter Bootstrap](http://getbootstrap.com/) or [Foundation](http://foundation.zurb.com/) but you can use it in any environment.
 
@@ -12,7 +12,7 @@ bower install nudge --save-dev
 
 ## CSS Class Construction Table
 
-Nudge CSS classes are composed of a minimum of two variables (and a maximum of five).
+Nudge margin and padding CSS classes are composed of a minimum of two variables (and a maximum of five).
 
 | nudge prefix* | css attribute* | position       | size | responsive |
 |---------------|----------------|----------------|------|------------|
@@ -22,6 +22,20 @@ Nudge CSS classes are composed of a minimum of two variables (and a maximum of f
 |               |                | b (bottom)     |      | --lg       |
 |               |                | l (left)       |      |            |
 |               |                | r (right)      |      |            |
+
+Nudge font size CSS classes are composed in a similar way.
+
+| nudge prefix* | css attribute* | size   | responsive |
+|---------------|----------------|--------|------------|
+| nudge-        | t (text)       | -sm    | --xs       |
+|               |                | -sm-lg | --sm       |
+|               |                | -sm-hg | --md       |
+|               |                | -md-xs | --lg       |
+|               |                | -md-sm |            |
+|               |                | -md    |            |
+|               |                | -md-lg |            |
+|               |                | -md-hg |            |
+|               |                | ...    |            |
 
 _\* Mandatory_
 
@@ -48,6 +62,12 @@ And the responsive classes...
 ```
 
 Replace the word _margin_ for _padding_ in the css classes and it will work exactly as you imagine.
+
+```
+<p class="nudge-t-sm">11.2px text</p>
+<p class="nudge-t-md-hg">19.84px text</p>
+<p class="nudge-t-hg-hg">56.32px text</p>
+```
 
 ## Recompile the CSS using Grunt
 
