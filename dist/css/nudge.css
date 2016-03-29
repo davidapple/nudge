@@ -1656,6 +1656,82 @@
     padding-right: 40px;
   }
 }
+.nudge-h-hg {
+  font-size: 3.52em;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .nudge-h-hg {
+    font-size: 3.28em;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .nudge-h-hg {
+    font-size: 3.04em;
+  }
+}
+@media (max-width: 767px) {
+  .nudge-h-hg {
+    font-size: 2.8em;
+  }
+}
+
+.nudge-h-lg {
+  font-size: 3.04em;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .nudge-h-lg {
+    font-size: 2.8em;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .nudge-h-lg {
+    font-size: 2.56em;
+  }
+}
+@media (max-width: 767px) {
+  .nudge-h-lg {
+    font-size: 2.32em;
+  }
+}
+
+.nudge-h {
+  font-size: 2.56em;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .nudge-h {
+    font-size: 2.32em;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .nudge-h {
+    font-size: 2.08em;
+  }
+}
+@media (max-width: 767px) {
+  .nudge-h {
+    font-size: 1.84em;
+  }
+}
+
+.nudge-h-sm {
+  font-size: 2.08em;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .nudge-h-sm {
+    font-size: 1.84em;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .nudge-h-sm {
+    font-size: 1.6em;
+  }
+}
+@media (max-width: 767px) {
+  .nudge-h-sm {
+    font-size: 1.36em;
+  }
+}
+
 .nudge-t-sm {
   font-size: 0.7em;
 }
@@ -2018,81 +2094,6 @@
 
   .nudge-t-hg-hg--lg {
     font-size: 3.52em;
-  }
-}
-.nudge-h-hg {
-  font-size: 3.52em;
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-  .nudge-h-hg {
-    font-size: 3.28em;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .nudge-h-hg {
-    font-size: 3.04em;
-  }
-}
-@media (max-width: 767px) {
-  .nudge-h-hg {
-    font-size: 2.8em;
-  }
-}
-
-.nudge-h-lg {
-  font-size: 3.04em;
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-  .nudge-h-lg {
-    font-size: 2.8em;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .nudge-h-lg {
-    font-size: 2.56em;
-  }
-}
-@media (max-width: 767px) {
-  .nudge-h-lg {
-    font-size: 2.32em;
-  }
-}
-
-.nudge-h {
-  font-size: 2.56em;
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-  .nudge-h {
-    font-size: 2.32em;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .nudge-h {
-    font-size: 2.08em;
-  }
-}
-@media (max-width: 767px) {
-  .nudge-h {
-    font-size: 1.84em;
-  }
-}
-
-.nudge-h-sm {
-  font-size: 2.08em;
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-  .nudge-h-sm {
-    font-size: 1.84em;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .nudge-h-sm {
-    font-size: 1.6em;
-  }
-}
-@media (max-width: 767px) {
-  .nudge-h-sm {
-    font-size: 1.36em;
   }
 }
 
