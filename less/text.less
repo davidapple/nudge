@@ -55,20 +55,20 @@
     }
 }
 
-.nudge-text(~'', @nudge-font-size, @nudge-font-size-increment, ~'');
+.nudge-text(@nudge-empty-string, @nudge-font-size, @nudge-font-size-increment, @nudge-empty-string);
 
 @media(max-width: @screen-xs-max) {
-    .nudge-text(~'', @nudge-font-size, @nudge-font-size-increment, @nudge-responsive-xs-prefix);
+    .nudge-text(@nudge-empty-string, @nudge-font-size, @nudge-font-size-increment, @nudge-responsive-xs-prefix);
 }
 
 @media(min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
-    .nudge-text(~'', @nudge-font-size, @nudge-font-size-increment, @nudge-responsive-sm-prefix);
+    .nudge-text(@nudge-empty-string, @nudge-font-size, @nudge-font-size-increment, @nudge-responsive-sm-prefix);
 }
 
 @media(min-width: @screen-md-min) and (max-width: @screen-md-max) {
-    .nudge-text(~'', @nudge-font-size, @nudge-font-size-increment, @nudge-responsive-md-prefix);
+    .nudge-text(@nudge-empty-string, @nudge-font-size, @nudge-font-size-increment, @nudge-responsive-md-prefix);
 }
 
 @media(min-width: @screen-lg-min) {
-    .nudge-text(~'', @nudge-font-size, @nudge-font-size-increment, @nudge-responsive-lg-prefix);
+    .nudge-text(@nudge-empty-string, @nudge-font-size, @nudge-font-size-increment, @nudge-responsive-lg-prefix);
 }

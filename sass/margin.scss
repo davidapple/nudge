@@ -27,16 +27,16 @@
     }
 }
 
-@include nudge-margin($nudge-zero-prefix, $nudge-space-zero, null);
-@include nudge-margin($nudge-sm-prefix, $nudge-space-sm, null);
-@include nudge-margin(null, $nudge-space, null);
-@include nudge-margin($nudge-lg-prefix, $nudge-space-lg, null);
-@include nudge-margin($nudge-hg-prefix, $nudge-space-hg, null);
+@include nudge-margin($nudge-zero-prefix, $nudge-space-zero, $nudge-empty-string);
+@include nudge-margin($nudge-sm-prefix, $nudge-space-sm, $nudge-empty-string);
+@include nudge-margin($nudge-empty-string, $nudge-space, $nudge-empty-string);
+@include nudge-margin($nudge-lg-prefix, $nudge-space-lg, $nudge-empty-string);
+@include nudge-margin($nudge-hg-prefix, $nudge-space-hg, $nudge-empty-string);
 
 @media(max-width: $screen-xs-max) {
     @include nudge-margin($nudge-zero-prefix, $nudge-space-zero, $nudge-responsive-xs-prefix);
     @include nudge-margin($nudge-sm-prefix, $nudge-space-sm, $nudge-responsive-xs-prefix);
-    @include nudge-margin(null, $nudge-space, $nudge-responsive-xs-prefix);
+    @include nudge-margin($nudge-empty-string, $nudge-space, $nudge-responsive-xs-prefix);
     @include nudge-margin($nudge-lg-prefix, $nudge-space-lg, $nudge-responsive-xs-prefix);
     @include nudge-margin($nudge-hg-prefix, $nudge-space-hg, $nudge-responsive-xs-prefix);
 }
@@ -44,7 +44,7 @@
 @media(min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
     @include nudge-margin($nudge-zero-prefix, $nudge-space-zero, $nudge-responsive-sm-prefix);
     @include nudge-margin($nudge-sm-prefix, $nudge-space-sm, $nudge-responsive-sm-prefix);
-    @include nudge-margin(null, $nudge-space, $nudge-responsive-sm-prefix);
+    @include nudge-margin($nudge-empty-string, $nudge-space, $nudge-responsive-sm-prefix);
     @include nudge-margin($nudge-lg-prefix, $nudge-space-lg, $nudge-responsive-sm-prefix);
     @include nudge-margin($nudge-hg-prefix, $nudge-space-hg, $nudge-responsive-sm-prefix);
 }
@@ -52,7 +52,7 @@
 @media(min-width: $screen-md-min) and (max-width: $screen-md-max) {
     @include nudge-margin($nudge-zero-prefix, $nudge-space-zero, $nudge-responsive-md-prefix);
     @include nudge-margin($nudge-sm-prefix, $nudge-space-sm, $nudge-responsive-md-prefix);
-    @include nudge-margin(null, $nudge-space, $nudge-responsive-md-prefix);
+    @include nudge-margin($nudge-empty-string, $nudge-space, $nudge-responsive-md-prefix);
     @include nudge-margin($nudge-lg-prefix, $nudge-space-lg, $nudge-responsive-md-prefix);
     @include nudge-margin($nudge-hg-prefix, $nudge-space-hg, $nudge-responsive-md-prefix);
 }
@@ -60,7 +60,7 @@
 @media(min-width: $screen-lg-min) {
     @include nudge-margin($nudge-zero-prefix, $nudge-space-zero, $nudge-responsive-lg-prefix);
     @include nudge-margin($nudge-sm-prefix, $nudge-space-sm, $nudge-responsive-lg-prefix);
-    @include nudge-margin(null, $nudge-space, $nudge-responsive-lg-prefix);
+    @include nudge-margin($nudge-empty-string, $nudge-space, $nudge-responsive-lg-prefix);
     @include nudge-margin($nudge-lg-prefix, $nudge-space-lg, $nudge-responsive-lg-prefix);
     @include nudge-margin($nudge-hg-prefix, $nudge-space-hg, $nudge-responsive-lg-prefix);
 }

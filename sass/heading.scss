@@ -15,5 +15,5 @@
 
 @include nudge-heading($nudge-prefix, $nudge-font-size, $nudge-font-size-increment, 42, $nudge-hg-prefix);
 @include nudge-heading($nudge-prefix, $nudge-font-size, $nudge-font-size-increment, 34, $nudge-lg-prefix);
-@include nudge-heading($nudge-prefix, $nudge-font-size, $nudge-font-size-increment, 26, null);
+@include nudge-heading($nudge-prefix, $nudge-font-size, $nudge-font-size-increment, 26, $nudge-empty-string);
 @include nudge-heading($nudge-prefix, $nudge-font-size, $nudge-font-size-increment, 18, $nudge-sm-prefix);
