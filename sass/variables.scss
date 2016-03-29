@@ -6,6 +6,8 @@ $nudge-font-size-increment: 0.06 !default;
 
 $nudge-margin-prefix: m !default;
 $nudge-padding-prefix: p !default;
+$nudge-border-radius-prefix: r !default;
+$nudge-crop-prefix: crop !default;
 $nudge-text-prefix: t !default;
 $nudge-heading-prefix: h !default;
 
@@ -31,6 +33,11 @@ $nudge-space: 10px !default;
 $nudge-space-sm: $nudge-space / 2 !default;
 $nudge-space-lg: $nudge-space * 2 !default;
 $nudge-space-hg: $nudge-space * 4 !default;
+
+$nudge-border-radius: 4px !default;
+$nudge-border-radius-sm: $nudge-border-radius / 2 !default;
+$nudge-border-radius-lg: $nudge-border-radius * 2 !default;
+$nudge-border-radius-hg: 9999px !default;
 
 $screen-xs-min: 480px !default;
 $screen-sm-min: 768px !default;
