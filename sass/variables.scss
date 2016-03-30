@@ -1,0 +1,46 @@
+$nudge-prefix: nudge- !default;
+$nudge-empty-string: null !default;
+
+$nudge-font-size: 1em !default;
+$nudge-font-size-increment: 0.06 !default;
+
+$nudge-margin-prefix: m !default;
+$nudge-padding-prefix: p !default;
+$nudge-border-radius-prefix: r !default;
+$nudge-clip-prefix: clip !default;
+$nudge-crop-prefix: crop !default;
+$nudge-text-prefix: t !default;
+$nudge-heading-prefix: h !default;
+
+$nudge-x-prefix: x !default;
+$nudge-y-prefix: y !default;
+$nudge-top-prefix: t !default;
+$nudge-bottom-prefix: b !default;
+$nudge-left-prefix: l !default;
+$nudge-right-prefix: r !default;
+
+$nudge-zero-prefix: -zero !default;
+$nudge-sm-prefix: -sm !default;
+$nudge-lg-prefix: -lg !default;
+$nudge-hg-prefix: -hg !default;
+
+$nudge-responsive-lg-prefix: --lg !default;
+$nudge-responsive-md-prefix: --md !default;
+$nudge-responsive-sm-prefix: --sm !default;
+$nudge-responsive-xs-prefix: --xs !default;
+
+$nudge-space-zero: 0 !default;
+$nudge-space: 10px !default;
+$nudge-space-sm: $nudge-space / 2 !default;
+$nudge-space-lg: $nudge-space * 2 !default;
+$nudge-space-hg: $nudge-space * 4 !default;
+
+$nudge-border-radius-hg: 9999px !default;
+
+$screen-xs-min: 480px !default;
+$screen-sm-min: 768px !default;
+$screen-md-min: 992px !default;
+$screen-lg-min: 1200px !default;
+$screen-xs-max: ($screen-sm-min - 1) !default;
+$screen-sm-max: ($screen-md-min - 1) !default;
+$screen-md-max: ($screen-lg-min - 1) !default;

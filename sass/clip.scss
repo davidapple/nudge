@@ -1,0 +1,25 @@
+@mixin nudge-clip($responsive){
+    .#{$nudge-prefix}#{$nudge-clip-prefix}#{$responsive} {
+        -moz-background-clip: padding;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+    }
+}
+
+@include nudge-clip($nudge-empty-string);
+
+@media(max-width: $screen-xs-max) {
+    @include nudge-clip($nudge-responsive-xs-prefix);
+}
+
+@media(min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+    @include nudge-clip($nudge-responsive-sm-prefix);
+}
+
+@media(min-width: $screen-md-min) and (max-width: $screen-md-max) {
+    @include nudge-clip($nudge-responsive-md-prefix);
+}
+
+@media(min-width: $screen-lg-min) {
+    @include nudge-clip($nudge-responsive-lg-prefix);
+}
