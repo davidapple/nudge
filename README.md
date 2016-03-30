@@ -2,7 +2,7 @@
 
 More white space control.
 
-## Responsive Margin, Padding & Font Size Classes
+## Responsive Margin, Padding, Border Radius & Font Size Classes
 
 Extensive collection of CSS (less & sass) classes. This works quite nicely alongside [Twitter Bootstrap](http://getbootstrap.com/) or [Foundation](http://foundation.zurb.com/) but you can use it in any environment.
 
@@ -39,9 +39,56 @@ Nudge font size CSS classes are composed in a similar way.
 |               |                | -md-hg |            |
 |               |                | ...    |            |
 
+| nudge prefix* | css attribute* | size | responsive |
+|---------------|----------------|------|------------|
+| nudge-        | h (heading)    | -hg  | --xs       |
+|               |                | -lg  | --sm       |
+|               |                | -sm  | --md       |
+|               |                |      | --lg       |
+
+Nudge border radius CSS classes require a size.
+
+| nudge prefix* | css attribute*    | size* | responsive |
+|---------------|-------------------|-------|------------|
+| nudge-        | b (border radius) | -zero | --xs       |
+|               |                   | -hg   | --sm       |
+|               |                   |       | --md       |
+|               |                   |       | --lg       |
+
 _\* Mandatory_
 
 These variables can be edited to be as short or verbose as you wish.
+
+## Crop and Clip Classes
+
+Nudge also contains useful crop and clip classes. Developed to resolve display issues and cross browser compatibility bugs.
+
+```
+.nudge-crop {
+    overflow: hidden;
+}
+```
+
+| nudge prefix* | css attribute* | responsive |
+|---------------|----------------|------------|
+| nudge-        | crop           | --xs       |
+|               |                | --sm       |
+|               |                | --md       |
+|               |                | --lg       |
+
+```
+.nudge-clip {
+	-moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+| nudge prefix* | css attribute* | responsive |
+|---------------|----------------|------------|
+| nudge-        | clip           | --xs       |
+|               |                | --sm       |
+|               |                | --md       |
+|               |                | --lg       |
 
 ## Example
 
@@ -66,9 +113,19 @@ And the responsive classes...
 Replace the word _margin_ for _padding_ in the css classes and it will work exactly as you imagine.
 
 ```
+<input type="text" class="nudge-b-hg nudge-clip nudge-crop" placeholder="Rounded input field">
+<button class="nudge-b-zero">Square button</button>
+```
+
+```
 <p class="nudge-t-sm">11.2px text</p>
 <p class="nudge-t-md-hg">19.84px text</p>
 <p class="nudge-t-hg-hg">56.32px text</p>
+```
+
+```
+<h1 class="nudge-h-hg">Huge Responsive Heading</h1>
+<h1 class="nudge-h-sm">Small Responsive Heading</h1>
 ```
 
 ## Recompile the CSS using Grunt
