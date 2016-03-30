@@ -1,0 +1,23 @@
+.nudge-border(@responsive) {
+    .@{nudge-prefix}@{nudge-border-prefix}@{nudge-zero-prefix}@{responsive} {
+        border: @nudge-space-zero;
+    }
+}
+
+.nudge-border(@nudge-empty-string);
+
+@media(max-width: @screen-xs-max) {
+    .nudge-border(@nudge-responsive-xs-prefix);
+}
+
+@media(min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+    .nudge-border(@nudge-responsive-sm-prefix);
+}
+
+@media(min-width: @screen-md-min) and (max-width: @screen-md-max) {
+    .nudge-border(@nudge-responsive-md-prefix);
+}
+
+@media(min-width: @screen-lg-min) {
+    .nudge-border(@nudge-responsive-lg-prefix);
+}
