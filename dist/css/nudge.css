@@ -1,5 +1,5 @@
 /*!
- *  Nudge 1.2.2 by David Apple - https://github.com/davidapple
+ *  Nudge 1.2.3 by David Apple - https://github.com/davidapple
  *  Donate Bitcoin - 13D3A8PP91MLF5VTBQMH5HG76F42RNRF28 - https://onename.com/davidapple
  *  Licensed under MIT
  */
@@ -1659,6 +1659,30 @@
 
   .nudge-pr-hg--lg {
     padding-right: 40px;
+  }
+}
+.nudge-b-zero {
+  border: 0;
+}
+
+@media (max-width: 767px) {
+  .nudge-b-zero--xs {
+    border: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .nudge-b-zero--sm {
+    border: 0;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .nudge-b-zero--md {
+    border: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .nudge-b-zero--lg {
+    border: 0;
   }
 }
 .nudge-r-zero {

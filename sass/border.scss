@@ -1,0 +1,23 @@
+@mixin nudge-border($responsive){
+    .#{$nudge-prefix}#{$nudge-border-prefix}#{$nudge-zero-prefix}#{$responsive} {
+        border: $nudge-space-zero;
+    }
+}
+
+@include nudge-border($nudge-empty-string);
+
+@media(max-width: $screen-xs-max) {
+    @include nudge-border($nudge-responsive-xs-prefix);
+}
+
+@media(min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+    @include nudge-border($nudge-responsive-sm-prefix);
+}
+
+@media(min-width: $screen-md-min) and (max-width: $screen-md-max) {
+    @include nudge-border($nudge-responsive-md-prefix);
+}
+
+@media(min-width: $screen-lg-min) {
+    @include nudge-border($nudge-responsive-lg-prefix);
+}
