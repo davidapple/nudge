@@ -1,26 +1,41 @@
-.border-radius (@radius) {
+.border-radius(@radius) {
     -webkit-border-radius: @radius;
     -moz-border-radius: @radius;
     border-radius: @radius;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
 }
 
-.border-radiuses (@topright, @bottomright, @bottomleft, @topleft) {
-    -webkit-border-top-right-radius: @topright;
-    -webkit-border-bottom-right-radius: @bottomright;
-    -webkit-border-bottom-left-radius: @bottomleft;
-    -webkit-border-top-left-radius: @topleft;
-    -moz-border-radius-topright: @topright;
-    -moz-border-radius-bottomright: @bottomright;
-    -moz-border-radius-bottomleft: @bottomleft;
-    -moz-border-radius-topleft: @topleft;
-    border-top-right-radius: @topright;
-    border-bottom-right-radius: @bottomright;
-    border-bottom-left-radius: @bottomleft;
-    border-top-left-radius: @topleft;
-    -moz-background-clip: padding; 
-    -webkit-background-clip: padding-box; 
-    background-clip: padding-box; 
+.border-radius-top(@size) {
+    -webkit-border-top-right-radius: @size;
+    -webkit-border-top-left-radius: @size;
+    -moz-border-radius-size: @size;
+    -moz-border-radius-size: @size;
+    border-top-right-radius: @size;
+    border-top-left-radius: @size;
+}
+
+.border-radius-bottom(@size) {
+    -webkit-border-bottom-right-radius: @size;
+    -webkit-border-bottom-left-radius: @size;
+    -moz-border-radius-size: @size;
+    -moz-border-radius-size: @size;
+    border-bottom-right-radius: @size;
+    border-bottom-left-radius: @size;
+}
+
+.border-radius-left(@size) {
+    -webkit-border-bottom-left-radius: @size;
+    -webkit-border-top-left-radius: @size;
+    -moz-border-radius-size: @size;
+    -moz-border-radius-size: @size;
+    border-bottom-left-radius: @size;
+    border-top-left-radius: @size;
+}
+
+.border-radius-right(@size) {
+    -webkit-border-top-right-radius: @size;
+    -webkit-border-bottom-right-radius: @size;
+    -moz-border-radius-size: @size;
+    -moz-border-radius-size: @size;
+    border-top-right-radius: @size;
+    border-bottom-right-radius: @size;
 }

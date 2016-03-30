@@ -1660,445 +1660,460 @@
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
 }
 
 .nudge-rt-zero {
   -webkit-border-top-right-radius: 0;
-  -webkit-border-bottom-right-radius: 0;
-  -webkit-border-bottom-left-radius: 0;
   -webkit-border-top-left-radius: 0;
-  -moz-border-radius-topright: 0;
-  -moz-border-radius-bottomright: 0;
-  -moz-border-radius-bottomleft: 0;
-  -moz-border-radius-topleft: 0;
+  -moz-border-radius-size: 0;
+  -moz-border-radius-size: 0;
   border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
   border-top-left-radius: 0;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
 }
 
 .nudge-rb-zero {
-  -webkit-border-top-right-radius: 0;
   -webkit-border-bottom-right-radius: 0;
   -webkit-border-bottom-left-radius: 0;
-  -webkit-border-top-left-radius: 0;
-  -moz-border-radius-topright: 0;
-  -moz-border-radius-bottomright: 0;
-  -moz-border-radius-bottomleft: 0;
-  -moz-border-radius-topleft: 0;
-  border-top-right-radius: 0;
+  -moz-border-radius-size: 0;
+  -moz-border-radius-size: 0;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
-  border-top-left-radius: 0;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
 }
 
 .nudge-rl-zero {
-  -webkit-border-top-right-radius: 0;
-  -webkit-border-bottom-right-radius: 0;
   -webkit-border-bottom-left-radius: 0;
   -webkit-border-top-left-radius: 0;
-  -moz-border-radius-topright: 0;
-  -moz-border-radius-bottomright: 0;
-  -moz-border-radius-bottomleft: 0;
-  -moz-border-radius-topleft: 0;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+  -moz-border-radius-size: 0;
+  -moz-border-radius-size: 0;
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
 }
 
 .nudge-rr-zero {
   -webkit-border-top-right-radius: 0;
   -webkit-border-bottom-right-radius: 0;
-  -webkit-border-bottom-left-radius: 0;
-  -webkit-border-top-left-radius: 0;
-  -moz-border-radius-topright: 0;
-  -moz-border-radius-bottomright: 0;
-  -moz-border-radius-bottomleft: 0;
-  -moz-border-radius-topleft: 0;
+  -moz-border-radius-size: 0;
+  -moz-border-radius-size: 0;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-}
-
-.nudge-r-sm {
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-}
-
-.nudge-rt-sm {
-  -webkit-border-top-right-radius: 2px;
-  -webkit-border-bottom-right-radius: 0;
-  -webkit-border-bottom-left-radius: 0;
-  -webkit-border-top-left-radius: 2px;
-  -moz-border-radius-topright: 2px;
-  -moz-border-radius-bottomright: 0;
-  -moz-border-radius-bottomleft: 0;
-  -moz-border-radius-topleft: 2px;
-  border-top-right-radius: 2px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 2px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-}
-
-.nudge-rb-sm {
-  -webkit-border-top-right-radius: 0;
-  -webkit-border-bottom-right-radius: 2px;
-  -webkit-border-bottom-left-radius: 2px;
-  -webkit-border-top-left-radius: 0;
-  -moz-border-radius-topright: 0;
-  -moz-border-radius-bottomright: 2px;
-  -moz-border-radius-bottomleft: 2px;
-  -moz-border-radius-topleft: 0;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 2px;
-  border-bottom-left-radius: 2px;
-  border-top-left-radius: 0;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-}
-
-.nudge-rl-sm {
-  -webkit-border-top-right-radius: 0;
-  -webkit-border-bottom-right-radius: 0;
-  -webkit-border-bottom-left-radius: 2px;
-  -webkit-border-top-left-radius: 2px;
-  -moz-border-radius-topright: 0;
-  -moz-border-radius-bottomright: 0;
-  -moz-border-radius-bottomleft: 2px;
-  -moz-border-radius-topleft: 2px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 2px;
-  border-top-left-radius: 2px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-}
-
-.nudge-rr-sm {
-  -webkit-border-top-right-radius: 2px;
-  -webkit-border-bottom-right-radius: 2px;
-  -webkit-border-bottom-left-radius: 0;
-  -webkit-border-top-left-radius: 0;
-  -moz-border-radius-topright: 2px;
-  -moz-border-radius-bottomright: 2px;
-  -moz-border-radius-bottomleft: 0;
-  -moz-border-radius-topleft: 0;
-  border-top-right-radius: 2px;
-  border-bottom-right-radius: 2px;
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-}
-
-.nudge-r {
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-}
-
-.nudge-rt {
-  -webkit-border-top-right-radius: 4px;
-  -webkit-border-bottom-right-radius: 0;
-  -webkit-border-bottom-left-radius: 0;
-  -webkit-border-top-left-radius: 4px;
-  -moz-border-radius-topright: 4px;
-  -moz-border-radius-bottomright: 0;
-  -moz-border-radius-bottomleft: 0;
-  -moz-border-radius-topleft: 4px;
-  border-top-right-radius: 4px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 4px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-}
-
-.nudge-rb {
-  -webkit-border-top-right-radius: 0;
-  -webkit-border-bottom-right-radius: 4px;
-  -webkit-border-bottom-left-radius: 4px;
-  -webkit-border-top-left-radius: 0;
-  -moz-border-radius-topright: 0;
-  -moz-border-radius-bottomright: 4px;
-  -moz-border-radius-bottomleft: 4px;
-  -moz-border-radius-topleft: 0;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
-  border-top-left-radius: 0;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-}
-
-.nudge-rl {
-  -webkit-border-top-right-radius: 0;
-  -webkit-border-bottom-right-radius: 0;
-  -webkit-border-bottom-left-radius: 4px;
-  -webkit-border-top-left-radius: 4px;
-  -moz-border-radius-topright: 0;
-  -moz-border-radius-bottomright: 0;
-  -moz-border-radius-bottomleft: 4px;
-  -moz-border-radius-topleft: 4px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 4px;
-  border-top-left-radius: 4px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-}
-
-.nudge-rr {
-  -webkit-border-top-right-radius: 4px;
-  -webkit-border-bottom-right-radius: 4px;
-  -webkit-border-bottom-left-radius: 0;
-  -webkit-border-top-left-radius: 0;
-  -moz-border-radius-topright: 4px;
-  -moz-border-radius-bottomright: 4px;
-  -moz-border-radius-bottomleft: 0;
-  -moz-border-radius-topleft: 0;
-  border-top-right-radius: 4px;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-}
-
-.nudge-r-lg {
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  border-radius: 8px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-}
-
-.nudge-rt-lg {
-  -webkit-border-top-right-radius: 8px;
-  -webkit-border-bottom-right-radius: 0;
-  -webkit-border-bottom-left-radius: 0;
-  -webkit-border-top-left-radius: 8px;
-  -moz-border-radius-topright: 8px;
-  -moz-border-radius-bottomright: 0;
-  -moz-border-radius-bottomleft: 0;
-  -moz-border-radius-topleft: 8px;
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 8px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-}
-
-.nudge-rb-lg {
-  -webkit-border-top-right-radius: 0;
-  -webkit-border-bottom-right-radius: 8px;
-  -webkit-border-bottom-left-radius: 8px;
-  -webkit-border-top-left-radius: 0;
-  -moz-border-radius-topright: 0;
-  -moz-border-radius-bottomright: 8px;
-  -moz-border-radius-bottomleft: 8px;
-  -moz-border-radius-topleft: 0;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 8px;
-  border-bottom-left-radius: 8px;
-  border-top-left-radius: 0;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-}
-
-.nudge-rl-lg {
-  -webkit-border-top-right-radius: 0;
-  -webkit-border-bottom-right-radius: 0;
-  -webkit-border-bottom-left-radius: 8px;
-  -webkit-border-top-left-radius: 8px;
-  -moz-border-radius-topright: 0;
-  -moz-border-radius-bottomright: 0;
-  -moz-border-radius-bottomleft: 8px;
-  -moz-border-radius-topleft: 8px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 8px;
-  border-top-left-radius: 8px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-}
-
-.nudge-rr-lg {
-  -webkit-border-top-right-radius: 8px;
-  -webkit-border-bottom-right-radius: 8px;
-  -webkit-border-bottom-left-radius: 0;
-  -webkit-border-top-left-radius: 0;
-  -moz-border-radius-topright: 8px;
-  -moz-border-radius-bottomright: 8px;
-  -moz-border-radius-bottomleft: 0;
-  -moz-border-radius-topleft: 0;
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
 }
 
 .nudge-r-hg {
   -webkit-border-radius: 9999px;
   -moz-border-radius: 9999px;
   border-radius: 9999px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
 }
 
 .nudge-rt-hg {
   -webkit-border-top-right-radius: 9999px;
-  -webkit-border-bottom-right-radius: 0;
-  -webkit-border-bottom-left-radius: 0;
   -webkit-border-top-left-radius: 9999px;
-  -moz-border-radius-topright: 9999px;
-  -moz-border-radius-bottomright: 0;
-  -moz-border-radius-bottomleft: 0;
-  -moz-border-radius-topleft: 9999px;
+  -moz-border-radius-size: 9999px;
+  -moz-border-radius-size: 9999px;
   border-top-right-radius: 9999px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
   border-top-left-radius: 9999px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
 }
 
 .nudge-rb-hg {
-  -webkit-border-top-right-radius: 0;
   -webkit-border-bottom-right-radius: 9999px;
   -webkit-border-bottom-left-radius: 9999px;
-  -webkit-border-top-left-radius: 0;
-  -moz-border-radius-topright: 0;
-  -moz-border-radius-bottomright: 9999px;
-  -moz-border-radius-bottomleft: 9999px;
-  -moz-border-radius-topleft: 0;
-  border-top-right-radius: 0;
+  -moz-border-radius-size: 9999px;
+  -moz-border-radius-size: 9999px;
   border-bottom-right-radius: 9999px;
   border-bottom-left-radius: 9999px;
-  border-top-left-radius: 0;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
 }
 
 .nudge-rl-hg {
-  -webkit-border-top-right-radius: 0;
-  -webkit-border-bottom-right-radius: 0;
   -webkit-border-bottom-left-radius: 9999px;
   -webkit-border-top-left-radius: 9999px;
-  -moz-border-radius-topright: 0;
-  -moz-border-radius-bottomright: 0;
-  -moz-border-radius-bottomleft: 9999px;
-  -moz-border-radius-topleft: 9999px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+  -moz-border-radius-size: 9999px;
+  -moz-border-radius-size: 9999px;
   border-bottom-left-radius: 9999px;
   border-top-left-radius: 9999px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
 }
 
 .nudge-rr-hg {
   -webkit-border-top-right-radius: 9999px;
   -webkit-border-bottom-right-radius: 9999px;
-  -webkit-border-bottom-left-radius: 0;
-  -webkit-border-top-left-radius: 0;
-  -moz-border-radius-topright: 9999px;
-  -moz-border-radius-bottomright: 9999px;
-  -moz-border-radius-bottomleft: 0;
-  -moz-border-radius-topleft: 0;
+  -moz-border-radius-size: 9999px;
+  -moz-border-radius-size: 9999px;
   border-top-right-radius: 9999px;
   border-bottom-right-radius: 9999px;
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0;
+}
+
+@media (max-width: 767px) {
+  .nudge-r-zero--xs {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+
+  .nudge-rt-zero--xs {
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius-size: 0;
+    -moz-border-radius-size: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+
+  .nudge-rb-zero--xs {
+    -webkit-border-bottom-right-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-size: 0;
+    -moz-border-radius-size: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .nudge-rl-zero--xs {
+    -webkit-border-bottom-left-radius: 0;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius-size: 0;
+    -moz-border-radius-size: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+  }
+
+  .nudge-rr-zero--xs {
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius-size: 0;
+    -moz-border-radius-size: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .nudge-r-hg--xs {
+    -webkit-border-radius: 9999px;
+    -moz-border-radius: 9999px;
+    border-radius: 9999px;
+  }
+
+  .nudge-rt-hg--xs {
+    -webkit-border-top-right-radius: 9999px;
+    -webkit-border-top-left-radius: 9999px;
+    -moz-border-radius-size: 9999px;
+    -moz-border-radius-size: 9999px;
+    border-top-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+  }
+
+  .nudge-rb-hg--xs {
+    -webkit-border-bottom-right-radius: 9999px;
+    -webkit-border-bottom-left-radius: 9999px;
+    -moz-border-radius-size: 9999px;
+    -moz-border-radius-size: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+  }
+
+  .nudge-rl-hg--xs {
+    -webkit-border-bottom-left-radius: 9999px;
+    -webkit-border-top-left-radius: 9999px;
+    -moz-border-radius-size: 9999px;
+    -moz-border-radius-size: 9999px;
+    border-bottom-left-radius: 9999px;
+    border-top-left-radius: 9999px;
+  }
+
+  .nudge-rr-hg--xs {
+    -webkit-border-top-right-radius: 9999px;
+    -webkit-border-bottom-right-radius: 9999px;
+    -moz-border-radius-size: 9999px;
+    -moz-border-radius-size: 9999px;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .nudge-r-zero--sm {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+
+  .nudge-rt-zero--sm {
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius-size: 0;
+    -moz-border-radius-size: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+
+  .nudge-rb-zero--sm {
+    -webkit-border-bottom-right-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-size: 0;
+    -moz-border-radius-size: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .nudge-rl-zero--sm {
+    -webkit-border-bottom-left-radius: 0;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius-size: 0;
+    -moz-border-radius-size: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+  }
+
+  .nudge-rr-zero--sm {
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius-size: 0;
+    -moz-border-radius-size: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .nudge-r-hg--sm {
+    -webkit-border-radius: 9999px;
+    -moz-border-radius: 9999px;
+    border-radius: 9999px;
+  }
+
+  .nudge-rt-hg--sm {
+    -webkit-border-top-right-radius: 9999px;
+    -webkit-border-top-left-radius: 9999px;
+    -moz-border-radius-size: 9999px;
+    -moz-border-radius-size: 9999px;
+    border-top-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+  }
+
+  .nudge-rb-hg--sm {
+    -webkit-border-bottom-right-radius: 9999px;
+    -webkit-border-bottom-left-radius: 9999px;
+    -moz-border-radius-size: 9999px;
+    -moz-border-radius-size: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+  }
+
+  .nudge-rl-hg--sm {
+    -webkit-border-bottom-left-radius: 9999px;
+    -webkit-border-top-left-radius: 9999px;
+    -moz-border-radius-size: 9999px;
+    -moz-border-radius-size: 9999px;
+    border-bottom-left-radius: 9999px;
+    border-top-left-radius: 9999px;
+  }
+
+  .nudge-rr-hg--sm {
+    -webkit-border-top-right-radius: 9999px;
+    -webkit-border-bottom-right-radius: 9999px;
+    -moz-border-radius-size: 9999px;
+    -moz-border-radius-size: 9999px;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .nudge-r-zero--md {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+
+  .nudge-rt-zero--md {
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius-size: 0;
+    -moz-border-radius-size: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+
+  .nudge-rb-zero--md {
+    -webkit-border-bottom-right-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-size: 0;
+    -moz-border-radius-size: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .nudge-rl-zero--md {
+    -webkit-border-bottom-left-radius: 0;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius-size: 0;
+    -moz-border-radius-size: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+  }
+
+  .nudge-rr-zero--md {
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius-size: 0;
+    -moz-border-radius-size: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .nudge-r-hg--md {
+    -webkit-border-radius: 9999px;
+    -moz-border-radius: 9999px;
+    border-radius: 9999px;
+  }
+
+  .nudge-rt-hg--md {
+    -webkit-border-top-right-radius: 9999px;
+    -webkit-border-top-left-radius: 9999px;
+    -moz-border-radius-size: 9999px;
+    -moz-border-radius-size: 9999px;
+    border-top-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+  }
+
+  .nudge-rb-hg--md {
+    -webkit-border-bottom-right-radius: 9999px;
+    -webkit-border-bottom-left-radius: 9999px;
+    -moz-border-radius-size: 9999px;
+    -moz-border-radius-size: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+  }
+
+  .nudge-rl-hg--md {
+    -webkit-border-bottom-left-radius: 9999px;
+    -webkit-border-top-left-radius: 9999px;
+    -moz-border-radius-size: 9999px;
+    -moz-border-radius-size: 9999px;
+    border-bottom-left-radius: 9999px;
+    border-top-left-radius: 9999px;
+  }
+
+  .nudge-rr-hg--md {
+    -webkit-border-top-right-radius: 9999px;
+    -webkit-border-bottom-right-radius: 9999px;
+    -moz-border-radius-size: 9999px;
+    -moz-border-radius-size: 9999px;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+  }
+}
+@media (min-width: 1200px) {
+  .nudge-r-zero--lg {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+
+  .nudge-rt-zero--lg {
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius-size: 0;
+    -moz-border-radius-size: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+
+  .nudge-rb-zero--lg {
+    -webkit-border-bottom-right-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-size: 0;
+    -moz-border-radius-size: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .nudge-rl-zero--lg {
+    -webkit-border-bottom-left-radius: 0;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius-size: 0;
+    -moz-border-radius-size: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+  }
+
+  .nudge-rr-zero--lg {
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius-size: 0;
+    -moz-border-radius-size: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .nudge-r-hg--lg {
+    -webkit-border-radius: 9999px;
+    -moz-border-radius: 9999px;
+    border-radius: 9999px;
+  }
+
+  .nudge-rt-hg--lg {
+    -webkit-border-top-right-radius: 9999px;
+    -webkit-border-top-left-radius: 9999px;
+    -moz-border-radius-size: 9999px;
+    -moz-border-radius-size: 9999px;
+    border-top-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+  }
+
+  .nudge-rb-hg--lg {
+    -webkit-border-bottom-right-radius: 9999px;
+    -webkit-border-bottom-left-radius: 9999px;
+    -moz-border-radius-size: 9999px;
+    -moz-border-radius-size: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+  }
+
+  .nudge-rl-hg--lg {
+    -webkit-border-bottom-left-radius: 9999px;
+    -webkit-border-top-left-radius: 9999px;
+    -moz-border-radius-size: 9999px;
+    -moz-border-radius-size: 9999px;
+    border-bottom-left-radius: 9999px;
+    border-top-left-radius: 9999px;
+  }
+
+  .nudge-rr-hg--lg {
+    -webkit-border-top-right-radius: 9999px;
+    -webkit-border-bottom-right-radius: 9999px;
+    -moz-border-radius-size: 9999px;
+    -moz-border-radius-size: 9999px;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+  }
+}
+.nudge-clip {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
 
-/*
-
-// Responsive border radius
-// Disabled by default as it enlarges the size of Nudge by 1624 lines (52111 characters)
-
-@media(max-width: $screen-xs-max) {
-    @include nudge-border-radius($nudge-zero-prefix, $nudge-space-zero, $nudge-responsive-xs-prefix);
-    @include nudge-border-radius($nudge-sm-prefix, $nudge-border-radius-sm, $nudge-responsive-xs-prefix);
-    @include nudge-border-radius($nudge-empty-string, $nudge-border-radius, $nudge-responsive-xs-prefix);
-    @include nudge-border-radius($nudge-lg-prefix, $nudge-border-radius-lg, $nudge-responsive-xs-prefix);
-    @include nudge-border-radius($nudge-hg-prefix, $nudge-border-radius-hg, $nudge-responsive-xs-prefix);
+@media (max-width: 767px) {
+  .nudge-clip--xs {
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+  }
 }
-
-@media(min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
-    @include nudge-border-radius($nudge-zero-prefix, $nudge-space-zero, $nudge-responsive-sm-prefix);
-    @include nudge-border-radius($nudge-sm-prefix, $nudge-border-radius-sm, $nudge-responsive-sm-prefix);
-    @include nudge-border-radius($nudge-empty-string, $nudge-border-radius, $nudge-responsive-sm-prefix);
-    @include nudge-border-radius($nudge-lg-prefix, $nudge-border-radius-lg, $nudge-responsive-sm-prefix);
-    @include nudge-border-radius($nudge-hg-prefix, $nudge-border-radius-hg, $nudge-responsive-sm-prefix);
+@media (min-width: 768px) and (max-width: 991px) {
+  .nudge-clip--sm {
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+  }
 }
-
-@media(min-width: $screen-md-min) and (max-width: $screen-md-max) {
-    @include nudge-border-radius($nudge-zero-prefix, $nudge-space-zero, $nudge-responsive-md-prefix);
-    @include nudge-border-radius($nudge-sm-prefix, $nudge-border-radius-sm, $nudge-responsive-md-prefix);
-    @include nudge-border-radius($nudge-empty-string, $nudge-border-radius, $nudge-responsive-md-prefix);
-    @include nudge-border-radius($nudge-lg-prefix, $nudge-border-radius-lg, $nudge-responsive-md-prefix);
-    @include nudge-border-radius($nudge-hg-prefix, $nudge-border-radius-hg, $nudge-responsive-md-prefix);
+@media (min-width: 992px) and (max-width: 1199px) {
+  .nudge-clip--md {
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+  }
 }
-
-@media(min-width: $screen-lg-min) {
-    @include nudge-border-radius($nudge-zero-prefix, $nudge-space-zero, $nudge-responsive-lg-prefix);
-    @include nudge-border-radius($nudge-sm-prefix, $nudge-border-radius-sm, $nudge-responsive-lg-prefix);
-    @include nudge-border-radius($nudge-empty-string, $nudge-border-radius, $nudge-responsive-lg-prefix);
-    @include nudge-border-radius($nudge-lg-prefix, $nudge-border-radius-lg, $nudge-responsive-lg-prefix);
-    @include nudge-border-radius($nudge-hg-prefix, $nudge-border-radius-hg, $nudge-responsive-lg-prefix);
+@media (min-width: 1200px) {
+  .nudge-clip--lg {
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+  }
 }
-
-*/
 .nudge-crop {
   overflow: hidden;
 }

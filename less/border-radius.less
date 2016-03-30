@@ -3,60 +3,38 @@
         .border-radius(@size);
     }
     .@{nudge-prefix}@{nudge-border-radius-prefix}@{nudge-top-prefix}@{prefix}@{responsive} {
-        .border-radiuses(@size, 0, 0, @size);
+        .border-radius-top(@size);
     }
     .@{nudge-prefix}@{nudge-border-radius-prefix}@{nudge-bottom-prefix}@{prefix}@{responsive} {
-        .border-radiuses(0, @size, @size, 0);
+        .border-radius-bottom(@size);
     }
     .@{nudge-prefix}@{nudge-border-radius-prefix}@{nudge-left-prefix}@{prefix}@{responsive} {
-        .border-radiuses(0, 0, @size, @size);
+        .border-radius-left(@size);
     }
     .@{nudge-prefix}@{nudge-border-radius-prefix}@{nudge-right-prefix}@{prefix}@{responsive} {
-        .border-radiuses(@size, @size, 0, 0);
+        .border-radius-right(@size);
     }
 }
 
 .nudge-border-radius(@nudge-zero-prefix, @nudge-space-zero, @nudge-empty-string);
-.nudge-border-radius(@nudge-sm-prefix, @nudge-border-radius-sm, @nudge-empty-string);
-.nudge-border-radius(@nudge-empty-string, @nudge-border-radius, @nudge-empty-string);
-.nudge-border-radius(@nudge-lg-prefix, @nudge-border-radius-lg, @nudge-empty-string);
 .nudge-border-radius(@nudge-hg-prefix, @nudge-border-radius-hg, @nudge-empty-string);
-
-/*
-
-// Responsive border radius
-// Disabled by default as it enlarges the size of Nudge by 1624 lines (52111 characters)
 
 @media(max-width: @screen-xs-max) {
     .nudge-border-radius(@nudge-zero-prefix, @nudge-space-zero, @nudge-responsive-xs-prefix);
-    .nudge-border-radius(@nudge-sm-prefix, @nudge-border-radius-sm, @nudge-responsive-xs-prefix);
-    .nudge-border-radius(@nudge-empty-string, @nudge-border-radius, @nudge-responsive-xs-prefix);
-    .nudge-border-radius(@nudge-lg-prefix, @nudge-border-radius-lg, @nudge-responsive-xs-prefix);
     .nudge-border-radius(@nudge-hg-prefix, @nudge-border-radius-hg, @nudge-responsive-xs-prefix);
 }
 
 @media(min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
     .nudge-border-radius(@nudge-zero-prefix, @nudge-space-zero, @nudge-responsive-sm-prefix);
-    .nudge-border-radius(@nudge-sm-prefix, @nudge-border-radius-sm, @nudge-responsive-sm-prefix);
-    .nudge-border-radius(@nudge-empty-string, @nudge-border-radius, @nudge-responsive-sm-prefix);
-    .nudge-border-radius(@nudge-lg-prefix, @nudge-border-radius-lg, @nudge-responsive-sm-prefix);
     .nudge-border-radius(@nudge-hg-prefix, @nudge-border-radius-hg, @nudge-responsive-sm-prefix);
 }
 
 @media(min-width: @screen-md-min) and (max-width: @screen-md-max) {
     .nudge-border-radius(@nudge-zero-prefix, @nudge-space-zero, @nudge-responsive-md-prefix);
-    .nudge-border-radius(@nudge-sm-prefix, @nudge-border-radius-sm, @nudge-responsive-md-prefix);
-    .nudge-border-radius(@nudge-empty-string, @nudge-border-radius, @nudge-responsive-md-prefix);
-    .nudge-border-radius(@nudge-lg-prefix, @nudge-border-radius-lg, @nudge-responsive-md-prefix);
     .nudge-border-radius(@nudge-hg-prefix, @nudge-border-radius-hg, @nudge-responsive-md-prefix);
 }
 
 @media(min-width: @screen-lg-min) {
     .nudge-border-radius(@nudge-zero-prefix, @nudge-space-zero, @nudge-responsive-lg-prefix);
-    .nudge-border-radius(@nudge-sm-prefix, @nudge-border-radius-sm, @nudge-responsive-lg-prefix);
-    .nudge-border-radius(@nudge-empty-string, @nudge-border-radius, @nudge-responsive-lg-prefix);
-    .nudge-border-radius(@nudge-lg-prefix, @nudge-border-radius-lg, @nudge-responsive-lg-prefix);
     .nudge-border-radius(@nudge-hg-prefix, @nudge-border-radius-hg, @nudge-responsive-lg-prefix);
 }
-
-*/
