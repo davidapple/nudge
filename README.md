@@ -82,6 +82,7 @@ Nudge also contains useful crop and clip classes. Developed to resolve display i
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
 }
+```
 
 | nudge prefix* | css attribute* | responsive |
 |---------------|----------------|------------|
